@@ -11107,9 +11107,6 @@ by exp-lbrs.ulp</description>
 <part name="C3" library="TR808clone" deviceset="C-EU" device="025-025X050" value="22p"/>
 <part name="C4" library="TR808clone" deviceset="C-EU" device="025-025X050" value="22p"/>
 <part name="TRIGGER1" library="solpad" deviceset="LSP11" device=""/>
-<part name="SW1_A" library="solpad" deviceset="LSP11" device=""/>
-<part name="SW1_B" library="solpad" deviceset="LSP11" device=""/>
-<part name="SW1_C" library="solpad" deviceset="LSP11" device=""/>
 <part name="SW2_A" library="solpad" deviceset="LSP11" device=""/>
 <part name="SW2_B" library="solpad" deviceset="LSP11" device=""/>
 <part name="SW2_C" library="solpad" deviceset="LSP11" device=""/>
@@ -11281,13 +11278,10 @@ by exp-lbrs.ulp</description>
 <attribute name="VALUE" x="-28.956" y="-2.159" size="1.778" layer="96"/>
 </instance>
 <instance part="TRIGGER1" gate="1" x="-12.7" y="88.9"/>
-<instance part="SW1_A" gate="1" x="121.92" y="10.16" rot="R90"/>
-<instance part="SW1_B" gate="1" x="116.84" y="7.62" rot="R270"/>
-<instance part="SW1_C" gate="1" x="116.84" y="12.7" rot="R270"/>
 <instance part="SW2_A" gate="1" x="53.34" y="-12.7" rot="R270"/>
 <instance part="SW2_B" gate="1" x="58.42" y="-10.16" rot="R90"/>
 <instance part="SW2_C" gate="1" x="58.42" y="-15.24" rot="R90"/>
-<instance part="SW8" gate="G$3" x="119.38" y="-17.78" rot="MR0"/>
+<instance part="SW8" gate="G$3" x="114.3" y="15.24" rot="MR0"/>
 <instance part="R238" gate="G$1" x="172.72" y="68.58" rot="R180"/>
 <instance part="OUTPUT" gate="G$1" x="187.96" y="63.5" rot="R180"/>
 <instance part="V4" gate="1" x="180.34" y="53.34"/>
@@ -11471,14 +11465,6 @@ by exp-lbrs.ulp</description>
 <junction x="99.06" y="10.16"/>
 </segment>
 </net>
-<net name="N$345" class="0">
-<segment>
-<wire x1="106.68" y1="22.86" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="7.62" x2="114.3" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="R319" gate="G$1" pin="2"/>
-<pinref part="SW1_B" gate="1" pin="MP"/>
-</segment>
-</net>
 <net name="N$347" class="0">
 <segment>
 <pinref part="C125" gate="G$1" pin="2"/>
@@ -11577,13 +11563,6 @@ by exp-lbrs.ulp</description>
 <pinref part="C114" gate="G$1" pin="2"/>
 <pinref part="C112" gate="G$1" pin="1"/>
 <pinref part="D61" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$473" class="0">
-<segment>
-<wire x1="114.3" y1="12.7" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R324" gate="G$1" pin="1"/>
-<pinref part="SW1_C" gate="1" pin="MP"/>
 </segment>
 </net>
 <net name="N$161" class="0">
@@ -11927,12 +11906,6 @@ by exp-lbrs.ulp</description>
 <junction x="-45.72" y="0"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="C125" gate="G$1" pin="1"/>
-<pinref part="SW1_A" gate="1" pin="MP"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="-IN"/>
@@ -11976,6 +11949,27 @@ by exp-lbrs.ulp</description>
 <wire x1="175.26" y1="45.72" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="OUTPUT" gate="G$1" pin="NORM"/>
 <wire x1="175.26" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R319" gate="G$1" pin="2"/>
+<pinref part="SW8" gate="G$3" pin="S"/>
+<wire x1="109.22" y1="20.32" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R324" gate="G$1" pin="1"/>
+<pinref part="SW8" gate="G$3" pin="O"/>
+<wire x1="114.3" y1="33.02" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="SW8" gate="G$3" pin="P"/>
+<pinref part="C125" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="10.16" x2="124.46" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
