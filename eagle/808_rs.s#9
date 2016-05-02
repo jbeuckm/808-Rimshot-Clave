@@ -10906,7 +10906,7 @@ by exp-lbrs.ulp</description>
 <instance part="D62" gate="G$1" x="17.78" y="38.1" smashed="yes"/>
 <instance part="R307" gate="G$1" x="12.7" y="30.48" rot="R90"/>
 <instance part="R302" gate="G$1" x="30.48" y="33.02" rot="R90"/>
-<instance part="V207" gate="1" x="12.7" y="22.86"/>
+<instance part="V207" gate="1" x="12.7" y="20.32"/>
 <instance part="V208" gate="1" x="30.48" y="22.86"/>
 <instance part="R301" gate="G$1" x="25.4" y="38.1" rot="R180"/>
 <instance part="C114" gate="G$1" x="5.08" y="12.7" rot="R180"/>
@@ -10926,13 +10926,13 @@ by exp-lbrs.ulp</description>
 <instance part="V211" gate="1" x="43.18" y="-30.48"/>
 <instance part="R314" gate="G$1" x="73.66" y="12.7" rot="R180"/>
 <instance part="R313" gate="G$1" x="66.04" y="-20.32" rot="R180"/>
-<instance part="V212" gate="1" x="83.82" y="5.08"/>
+<instance part="V212" gate="1" x="83.82" y="2.54"/>
 <instance part="R309" gate="G$1" x="88.9" y="20.32" rot="R180"/>
 <instance part="R319" gate="G$1" x="106.68" y="15.24" rot="R270"/>
 <instance part="C125" gate="G$1" x="127" y="10.16" rot="R90"/>
 <instance part="R326" gate="G$1" x="137.16" y="10.16"/>
 <instance part="R331" gate="G$1" x="142.24" y="-2.54" rot="R90"/>
-<instance part="V213" gate="1" x="142.24" y="-10.16"/>
+<instance part="V213" gate="1" x="142.24" y="-15.24"/>
 <instance part="C153" gate="G$1" x="152.4" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="156.464" y="15.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.464" y="13.081" size="1.778" layer="96"/>
@@ -11395,6 +11395,7 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="R307" gate="G$1" pin="1"/>
 <pinref part="V207" gate="1" pin="GND"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R302" gate="G$1" pin="1"/>
@@ -11424,6 +11425,7 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="R331" gate="G$1" pin="1"/>
 <pinref part="V213" gate="1" pin="GND"/>
+<wire x1="142.24" y1="-12.7" x2="142.24" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
@@ -11489,6 +11491,7 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="V212" gate="1" pin="GND"/>
 <pinref part="IC2" gate="A" pin="+IN"/>
+<wire x1="83.82" y1="5.08" x2="83.82" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RS" class="0">

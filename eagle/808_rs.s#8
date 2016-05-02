@@ -10652,6 +10652,49 @@ by exp-lbrs.ulp</description>
 <text x="-2.159" y="0" size="1.27" layer="51" ratio="10">3</text>
 <text x="1.143" y="0" size="1.27" layer="51" ratio="10">1</text>
 </package>
+<package name="808_LT_MSS42_SW_SLIDE">
+<wire x1="-3.5" y1="0" x2="-3" y2="0" width="0.127" layer="21"/>
+<wire x1="-3" y1="0" x2="-3" y2="-7.1" width="0.127" layer="21"/>
+<wire x1="-3" y1="-7.1" x2="3" y2="-7.1" width="0.127" layer="21"/>
+<wire x1="3" y1="-7.1" x2="3" y2="0" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="0" x2="-11.1125" y2="11.27" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="11.27" x2="11.1125" y2="11.27" width="0.127" layer="21"/>
+<wire x1="11.1125" y1="11.27" x2="11.1125" y2="0" width="0.127" layer="21"/>
+<wire x1="11.1125" y1="0" x2="-11.1125" y2="0" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="0" x2="11.1125" y2="11.27" width="0.127" layer="21"/>
+<wire x1="-11.1125" y1="11.27" x2="11.1125" y2="0" width="0.127" layer="21"/>
+<wire x1="-1" y1="-7.25" x2="-1.25" y2="-12" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-12" x2="1.25" y2="-12" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-12" x2="1" y2="-7.25" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-12" x2="-1.25" y2="-12" width="0.127" layer="21" curve="-180"/>
+<wire x1="-7.239" y1="20.447" x2="-7.239" y2="19.685" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="20.447" x2="-2.413" y2="19.685" width="0.127" layer="21"/>
+<wire x1="2.413" y1="20.447" x2="2.413" y2="19.685" width="0.127" layer="21"/>
+<wire x1="7.239" y1="20.447" x2="7.239" y2="19.685" width="0.127" layer="21"/>
+<wire x1="-7.239" y1="16.637" x2="-7.239" y2="15.875" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="16.637" x2="-2.413" y2="15.875" width="0.127" layer="21"/>
+<wire x1="2.413" y1="16.637" x2="2.413" y2="15.875" width="0.127" layer="21"/>
+<wire x1="7.239" y1="16.637" x2="7.239" y2="15.875" width="0.127" layer="21"/>
+<wire x1="-7.112" y1="12.827" x2="-7.112" y2="12.065" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="12.827" x2="-2.413" y2="12.065" width="0.127" layer="21"/>
+<wire x1="2.286" y1="12.827" x2="2.286" y2="12.065" width="0.127" layer="21"/>
+<wire x1="6.985" y1="12.827" x2="6.985" y2="12.065" width="0.127" layer="21"/>
+<pad name="P$1" x="-7.239" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$2" x="-7.239" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$3" x="-7.239" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="P$4" x="-2.413" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$5" x="-2.413" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$6" x="-2.413" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="P$7" x="2.413" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$8" x="2.413" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$9" x="2.413" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="P$10" x="7.239" y="14.351" drill="1.3716" diameter="2.54"/>
+<pad name="P$11" x="7.239" y="18.151" drill="1.3716" diameter="2.54"/>
+<pad name="P$12" x="7.239" y="21.951" drill="1.3716" diameter="2.54"/>
+<pad name="PG$1" x="2.5" y="0" drill="1.3716" diameter="3"/>
+<pad name="PG$2" x="-2.5" y="0" drill="1.3716" diameter="3"/>
+<text x="-5.08" y="-2.54" size="1.27" layer="21" rot="R270">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PNP">
@@ -10691,6 +10734,27 @@ by exp-lbrs.ulp</description>
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="808_LT_SIS">
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<pin name="O" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="2N3906" prefix="Q">
@@ -10722,6 +10786,36 @@ by exp-lbrs.ulp</description>
 <connect gate="G1" pin="B" pad="2"/>
 <connect gate="G1" pin="C" pad="1"/>
 <connect gate="G1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="808_LT_MSS42_SW_4PDT">
+<description>MSS42 4PDT switch</description>
+<gates>
+<gate name="G$1" symbol="808_LT_SIS" x="-22.86" y="0"/>
+<gate name="G$2" symbol="808_LT_SIS" x="-7.62" y="0"/>
+<gate name="G$3" symbol="808_LT_SIS" x="7.62" y="0"/>
+<gate name="G$4" symbol="808_LT_SIS" x="22.86" y="0"/>
+</gates>
+<devices>
+<device name="" package="808_LT_MSS42_SW_SLIDE">
+<connects>
+<connect gate="G$1" pin="O" pad="P$1"/>
+<connect gate="G$1" pin="P" pad="P$2"/>
+<connect gate="G$1" pin="S" pad="P$3"/>
+<connect gate="G$2" pin="O" pad="P$4"/>
+<connect gate="G$2" pin="P" pad="P$5"/>
+<connect gate="G$2" pin="S" pad="P$6"/>
+<connect gate="G$3" pin="O" pad="P$7"/>
+<connect gate="G$3" pin="P" pad="P$8"/>
+<connect gate="G$3" pin="S" pad="P$9"/>
+<connect gate="G$4" pin="O" pad="P$10"/>
+<connect gate="G$4" pin="P" pad="P$11"/>
+<connect gate="G$4" pin="S" pad="P$12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10863,6 +10957,7 @@ by exp-lbrs.ulp</description>
 <part name="SW2_A" library="solpad" deviceset="LSP11" device=""/>
 <part name="SW2_B" library="solpad" deviceset="LSP11" device=""/>
 <part name="SW2_C" library="solpad" deviceset="LSP11" device=""/>
+<part name="SW8" library="808_lt" deviceset="808_LT_MSS42_SW_4PDT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10927,8 +11022,8 @@ by exp-lbrs.ulp</description>
 <instance part="R314" gate="G$1" x="73.66" y="12.7" rot="R180"/>
 <instance part="R313" gate="G$1" x="66.04" y="-20.32" rot="R180"/>
 <instance part="V212" gate="1" x="83.82" y="2.54"/>
-<instance part="R309" gate="G$1" x="88.9" y="20.32" rot="R180"/>
-<instance part="R319" gate="G$1" x="106.68" y="15.24" rot="R270"/>
+<instance part="R309" gate="G$1" x="88.9" y="33.02" rot="R180"/>
+<instance part="R319" gate="G$1" x="106.68" y="27.94" rot="R270"/>
 <instance part="C125" gate="G$1" x="127" y="10.16" rot="R90"/>
 <instance part="R326" gate="G$1" x="137.16" y="10.16"/>
 <instance part="R331" gate="G$1" x="142.24" y="-2.54" rot="R90"/>
@@ -11033,6 +11128,7 @@ by exp-lbrs.ulp</description>
 <instance part="SW2_A" gate="1" x="53.34" y="-12.7" rot="R270"/>
 <instance part="SW2_B" gate="1" x="58.42" y="-10.16" rot="R90"/>
 <instance part="SW2_C" gate="1" x="58.42" y="-15.24" rot="R90"/>
+<instance part="SW8" gate="G$3" x="119.38" y="-17.78" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -11196,12 +11292,12 @@ by exp-lbrs.ulp</description>
 <segment>
 <wire x1="71.12" y1="-20.32" x2="99.06" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-20.32" x2="99.06" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="10.16" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="20.32" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="20.32" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="10.16" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="40.64" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
-<junction x="99.06" y="20.32"/>
+<wire x1="99.06" y1="40.64" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<junction x="99.06" y="33.02"/>
 <pinref part="R313" gate="G$1" pin="1"/>
 <pinref part="R309" gate="G$1" pin="1"/>
 <pinref part="R319" gate="G$1" pin="1"/>
@@ -11212,7 +11308,7 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="N$345" class="0">
 <segment>
-<wire x1="106.68" y1="10.16" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="22.86" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="7.62" x2="114.3" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R319" gate="G$1" pin="2"/>
 <pinref part="SW1_B" gate="1" pin="MP"/>
@@ -11672,7 +11768,7 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="IC2" gate="A" pin="-IN"/>
 <pinref part="R309" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="12.7" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="12.7" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R314" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="12.7" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
 <junction x="83.82" y="12.7"/>
