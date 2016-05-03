@@ -10992,19 +10992,19 @@ by exp-lbrs.ulp</description>
 <parts>
 <part name="Q59" library="808_lt" deviceset="2N3904" device=""/>
 <part name="Q60" library="808_lt" deviceset="2N3906" device=""/>
-<part name="R303" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
+<part name="R303" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="10K"/>
 <part name="R297" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="R299" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="4K7"/>
 <part name="R298" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="V200" library="supply1" deviceset="GND" device=""/>
 <part name="V201" library="supply1" deviceset="GND" device=""/>
-<part name="D61" library="TR808clone" deviceset="1N4148" device="DO35-7"/>
+<part name="D61" library="TR808clone" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
 <part name="V202" library="supply1" deviceset="GND" device=""/>
 <part name="R107" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1K"/>
 <part name="V203" library="supply1" deviceset="GND" device=""/>
 <part name="R108" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
-<part name="D63" library="TR808clone" deviceset="1N4148" device="DO35-7"/>
-<part name="C121" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="4.7n"/>
+<part name="D63" library="TR808clone" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
+<part name="C121" library="TR808clone" deviceset="C-EU" device="050-025X075" value="4.7n"/>
 <part name="C122" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="4.7n"/>
 <part name="R325" library="TR808clone" deviceset="R-EU_" device="0207/7" value="330K"/>
 <part name="Q63" library="808_lt" deviceset="2N3904" device=""/>
@@ -11020,7 +11020,7 @@ by exp-lbrs.ulp</description>
 <part name="R301" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="47K"/>
 <part name="C114" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="1n"/>
 <part name="R306" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
-<part name="D64" library="TR808clone" deviceset="1N4148" device="DO35-7"/>
+<part name="D64" library="TR808clone" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
 <part name="R310" library="TR808clone" deviceset="R-EU_" device="0207/7" value="33K"/>
 <part name="R311" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
 <part name="V209" library="supply1" deviceset="GND" device=""/>
@@ -11034,14 +11034,14 @@ by exp-lbrs.ulp</description>
 <part name="R314" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="33K"/>
 <part name="R313" library="TR808clone" deviceset="R-EU_" device="0309/12" value="390K"/>
 <part name="V212" library="supply1" deviceset="GND" device=""/>
-<part name="R309" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="33K"/>
+<part name="R309" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="33K"/>
 <part name="R319" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="220K"/>
 <part name="C125" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="10n"/>
-<part name="R326" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
+<part name="R326" library="TR808clone" deviceset="R-EU_" device="0309/10" value="10K"/>
 <part name="R331" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
 <part name="V213" library="supply1" deviceset="GND" device=""/>
 <part name="C153" library="TR808clone" deviceset="C-EU" device="025-025X050" value="22p"/>
-<part name="R330" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="470K"/>
+<part name="R330" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="470K"/>
 <part name="C126" library="TR808clone" deviceset="CPOL-EU" device="E2.5-5" value="33/6.3"/>
 <part name="C116" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="4.7n"/>
 <part name="C115" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="4.7n"/>
@@ -11052,7 +11052,7 @@ by exp-lbrs.ulp</description>
 <part name="R317" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="Q62" library="808_lt" deviceset="2N3904" device=""/>
 <part name="V215" library="supply1" deviceset="GND" device=""/>
-<part name="R321" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="2M2"/>
+<part name="R321" library="TR808clone" deviceset="R-EU_" device="0207/7" value="2M2"/>
 <part name="C120" library="TR808clone" deviceset="CPOL-EU" device="E2.5-5" value="10/16"/>
 <part name="V217" library="supply1" deviceset="GND" device=""/>
 <part name="R300" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
@@ -11088,7 +11088,7 @@ by exp-lbrs.ulp</description>
 <part name="C1" library="TR808clone" deviceset="C-EU" device="025-025X050" value="22p"/>
 <part name="C2" library="TR808clone" deviceset="C-EU" device="025-025X050" value="22p"/>
 <part name="C3" library="TR808clone" deviceset="C-EU" device="025-025X050" value="22p"/>
-<part name="C4" library="TR808clone" deviceset="C-EU" device="025-025X050" value="22p"/>
+<part name="C4" library="TR808clone" deviceset="C-EU" device="050-024X044" value="22p"/>
 <part name="TRIGGER" library="solpad" deviceset="LSP11" device=""/>
 <part name="SW8" library="808_lt" deviceset="808_LT_MSS42_SW_4PDT" device=""/>
 <part name="R238" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
