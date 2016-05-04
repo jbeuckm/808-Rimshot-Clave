@@ -11058,7 +11058,7 @@ by exp-lbrs.ulp</description>
 <part name="R300" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="VR16" library="pot" deviceset="3RP/1610N" device="" value="100KA"/>
 <part name="R324" library="TR808clone" deviceset="R-EU_" device="0309/10" value="220K"/>
-<part name="R320" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
+<part name="R320" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
 <part name="Q61" library="808_lt" deviceset="2N3904" device=""/>
 <part name="C112" library="TR808clone" deviceset="C-EU" device="050-025X075" value="22n"/>
 <part name="C113" library="TR808clone" deviceset="C-EU" device="050-025X075" value="47n"/>

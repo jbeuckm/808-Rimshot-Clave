@@ -11086,7 +11086,7 @@ by exp-lbrs.ulp</description>
 <part name="V2" library="supply1" deviceset="GND" device=""/>
 <part name="V3" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="TR808clone" deviceset="C-EU" device="050-024X044" value="22p"/>
-<part name="C2" library="TR808clone" deviceset="C-EU" device="025-025X050" value="22p"/>
+<part name="C2" library="TR808clone" deviceset="C-EU" device="050-024X044" value="22p"/>
 <part name="C3" library="TR808clone" deviceset="C-EU" device="025-025X050" value="22p"/>
 <part name="C4" library="TR808clone" deviceset="C-EU" device="050-024X044" value="22p"/>
 <part name="TRIGGER" library="solpad" deviceset="LSP11" device=""/>
