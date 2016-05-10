@@ -1048,7 +1048,7 @@ design rules under a new name.</description>
 <element name="R313" library="TR808clone" package="0207/7" value="390K" x="25.146" y="17.526" rot="R270"/>
 <element name="R314" library="TR808clone" package="0207/7" value="33K" x="37.592" y="41.402" rot="R270"/>
 <element name="R315" library="TR808clone" package="0207/5V" value="5K6" x="36.83" y="16.51" rot="R270"/>
-<element name="R316" library="TR808clone" package="0207/5V" value="1M" x="42.164" y="21.082"/>
+<element name="R316" library="TR808clone" package="0207/2V" value="1M" x="42.164" y="21.082"/>
 <element name="R317" library="TR808clone" package="0207/5V" value="10K" x="32.258" y="17.018" rot="R270"/>
 <element name="R318" library="TR808clone" package="0207/5V" value="220K" x="35.56" y="23.114"/>
 <element name="R319" library="TR808clone" package="0207/5V" value="220K" x="21.59" y="33.02" rot="R270"/>
@@ -1313,18 +1313,18 @@ design rules under a new name.</description>
 <contactref element="C116" pad="P$2"/>
 <contactref element="R316" pad="2"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="44.704" y1="21.082" x2="44.45" y2="19.022" width="0.8128" layer="16"/>
-<wire x1="44.704" y1="21.082" x2="43.18" y2="24.13" width="0.8128" layer="16"/>
+<wire x1="43.434" y1="21.082" x2="44.45" y2="19.022" width="0.8128" layer="16"/>
+<wire x1="43.434" y1="21.082" x2="43.18" y2="24.13" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$354">
 <contactref element="R316" pad="1"/>
 <contactref element="C115" pad="P$1"/>
 <contactref element="R318" pad="2"/>
 <contactref element="IC1" pad="1"/>
-<wire x1="39.624" y1="21.082" x2="40.64" y2="19.685" width="0.8128" layer="16"/>
+<wire x1="40.894" y1="21.082" x2="40.64" y2="19.685" width="0.8128" layer="16"/>
 <wire x1="40.64" y1="19.685" x2="40.64" y2="19.022" width="0.8128" layer="16"/>
 <wire x1="40.3225" y1="19.685" x2="40.64" y2="19.685" width="0.8128" layer="16"/>
-<wire x1="39.624" y1="21.082" x2="40.64" y2="24.13" width="0.8128" layer="16"/>
+<wire x1="40.894" y1="21.082" x2="40.64" y2="24.13" width="0.8128" layer="16"/>
 <wire x1="38.1" y1="23.114" x2="39.624" y2="23.114" width="1.016" layer="16"/>
 <wire x1="39.624" y1="23.114" x2="40.64" y2="24.13" width="1.016" layer="16"/>
 </signal>
